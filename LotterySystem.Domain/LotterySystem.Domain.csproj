@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DTO%2527s\**" />
+    <Compile Remove="DTOs\AccountDTO\Response\**" />
+    <Compile Remove="DTOs\CustomerDTO\**" />
+    <Compile Remove="DTOs\RequiredDocuments\**" />
+    <Compile Remove="DTOs\SubServiceDTO\**" />
+    <EmbeddedResource Remove="DTO%2527s\**" />
+    <EmbeddedResource Remove="DTOs\AccountDTO\Response\**" />
+    <EmbeddedResource Remove="DTOs\CustomerDTO\**" />
+    <EmbeddedResource Remove="DTOs\RequiredDocuments\**" />
+    <EmbeddedResource Remove="DTOs\SubServiceDTO\**" />
+    <None Remove="DTO%2527s\**" />
+    <None Remove="DTOs\AccountDTO\Response\**" />
+    <None Remove="DTOs\CustomerDTO\**" />
+    <None Remove="DTOs\RequiredDocuments\**" />
+    <None Remove="DTOs\SubServiceDTO\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Saeed\.nuget\packages\select.htmltopdf.netcore\21.1.0\contentFiles\any\any\Select.Html.dep" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+     <ProjectReference Include="..\LotterySystem.Utilitie\NowSoft.Utilities.csproj" />
+  </ItemGroup>
+</Project>

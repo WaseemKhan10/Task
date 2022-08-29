@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LotterySystem.Applications", "LotterySystem.Applications", "{D3C7E17C-C460-4B05-895E-053D11A53EB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LotterySystem.Domains", "LotterySystem.Domains", "{EB41FFC3-9831-4B90-A7B6-423F141857C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LotterySystem.Infrastructure.Data", "LotterySystem.Infrastructure.Data", "{0FEEC7CA-1E6C-4FDC-A396-F9F72A32DE62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NowSoftInfrastructures.IoC", "NowSoftInfrastructures.IoC", "{B0CC4147-B611-435E-8AA9-7C22746CDFA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotterySystem.Domain", "LotterySystem.Domain\LotterySystem.Domain.csproj", "{2A254AAB-25D5-480A-BEFA-9BB6CF64404E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotterySystem.Infra.Data", "LotterySystem.Infra.Data\LotterySystem.Infra.Data.csproj", "{41EA05E1-C3FC-4C39-B12A-5BDC192C6FE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotterySystem.Application", "LotterySystem.Application\LotterySystem.Application.csproj", "{425A715C-436A-4798-8233-964B182CF87B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NowSoft.Infrastructure.IoC", "LotterySystem.Infrastructure.IoC\NowSoft.Infrastructure.IoC.csproj", "{DBF10BD0-FA3A-4790-98BD-577E41710EE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LotterySystem.ExceptionResponseHandlers", "LotterySystem.ExceptionResponseHandlers", "{9CB93637-8200-498C-B302-B69299E732DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NowSoft.Utilities", "NowSoft.Utilities", "{68C6CE31-685F-45FB-8F46-C3E22185DCBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NowSoft.Utilities", "LotterySystem.Utilitie\NowSoft.Utilities.csproj", "{B7279977-894F-43B4-87E9-F8C01687455B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotterySystem.ExceptionResponseHandler", "LotterySystem.ExceptionHandler\LotterySystem.ExceptionResponseHandler.csproj", "{A3F40C9C-4D1F-422D-BF8A-58D59F5CB109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LotterySystem.API", "LotterySystem.API", "{34E0623E-FD99-4A58-A7B8-D315D58CD823}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotterySystem.API", "LotterySystem.API\LotterySystem.API.csproj", "{9A326581-5D36-46F0-9BAA-82F5FC7229DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A254AAB-25D5-480A-BEFA-9BB6CF64404E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A254AAB-25D5-480A-BEFA-9BB6CF64404E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A254AAB-25D5-480A-BEFA-9BB6CF64404E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A254AAB-25D5-480A-BEFA-9BB6CF64404E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41EA05E1-C3FC-4C39-B12A-5BDC192C6FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41EA05E1-C3FC-4C39-B12A-5BDC192C6FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41EA05E1-C3FC-4C39-B12A-5BDC192C6FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41EA05E1-C3FC-4C39-B12A-5BDC192C6FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{425A715C-436A-4798-8233-964B182CF87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425A715C-436A-4798-8233-964B182CF87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425A715C-436A-4798-8233-964B182CF87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425A715C-436A-4798-8233-964B182CF87B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF10BD0-FA3A-4790-98BD-577E41710EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF10BD0-FA3A-4790-98BD-577E41710EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF10BD0-FA3A-4790-98BD-577E41710EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF10BD0-FA3A-4790-98BD-577E41710EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7279977-894F-43B4-87E9-F8C01687455B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7279977-894F-43B4-87E9-F8C01687455B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7279977-894F-43B4-87E9-F8C01687455B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7279977-894F-43B4-87E9-F8C01687455B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F40C9C-4D1F-422D-BF8A-58D59F5CB109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F40C9C-4D1F-422D-BF8A-58D59F5CB109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F40C9C-4D1F-422D-BF8A-58D59F5CB109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F40C9C-4D1F-422D-BF8A-58D59F5CB109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A326581-5D36-46F0-9BAA-82F5FC7229DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A326581-5D36-46F0-9BAA-82F5FC7229DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A326581-5D36-46F0-9BAA-82F5FC7229DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A326581-5D36-46F0-9BAA-82F5FC7229DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A254AAB-25D5-480A-BEFA-9BB6CF64404E} = {EB41FFC3-9831-4B90-A7B6-423F141857C4}
+		{41EA05E1-C3FC-4C39-B12A-5BDC192C6FE5} = {0FEEC7CA-1E6C-4FDC-A396-F9F72A32DE62}
+		{425A715C-436A-4798-8233-964B182CF87B} = {D3C7E17C-C460-4B05-895E-053D11A53EB6}
+		{DBF10BD0-FA3A-4790-98BD-577E41710EE6} = {B0CC4147-B611-435E-8AA9-7C22746CDFA3}
+		{B7279977-894F-43B4-87E9-F8C01687455B} = {68C6CE31-685F-45FB-8F46-C3E22185DCBF}
+		{A3F40C9C-4D1F-422D-BF8A-58D59F5CB109} = {9CB93637-8200-498C-B302-B69299E732DB}
+		{9A326581-5D36-46F0-9BAA-82F5FC7229DA} = {34E0623E-FD99-4A58-A7B8-D315D58CD823}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B891105-8613-411B-ACF7-569EADBCA5A1}
+	EndGlobalSection
+EndGlobal
